@@ -18,7 +18,20 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        serif: ["Playfair Display", "Cinzel", "serif"],
+        sans: ["Lato", "Roboto", "system-ui", "sans-serif"],
+      },
       colors: {
+        // Luxury perfume brand colors
+        luxury: {
+          cream: "hsl(var(--luxury-cream))",
+          gold: "hsl(var(--luxury-gold))",
+          "gold-light": "hsl(var(--luxury-gold-light))",
+          black: "hsl(var(--luxury-black))",
+          "black-light": "hsl(var(--luxury-black-light))",
+          charcoal: "hsl(var(--luxury-charcoal))",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
